@@ -1,0 +1,74 @@
+Starting Dynare (version 4.5.3).
+Starting preprocessing of the model file ...
+Found 4 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+ITC 		 0
+K   		 1.09802e-07
+I   		 0.00525925
+P   		 0.00525925
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+            0.25             0.25                0
+
+
+There are 0 eigenvalue(s) larger than 1 in modulus 
+for 0 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         4
+  Number of stochastic shocks: 1
+  Number of state variables:   1
+  Number of jumpers:           0
+  Number of static variables:  3
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables     epsilon
+epsilon      1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                                 ITC               K               I               P
+Constant                           0               0        0.005259        0.005259
+ITC(-1)                     0.250000               0               0               0
+epsilon                     1.000000               0               0               0
+
+
+MOMENTS OF SIMULATED VARIABLES
+VARIABLE              MEAN       STD. DEV.        VARIANCE        SKEWNESS        KURTOSIS
+ITC               0.003885        1.031035        1.063033        0.022551        0.039304
+K                 0.000000        0.000000        0.000000       -1.000000       -2.000000
+I                 0.005259        0.000000        0.000000       -1.000000       -2.000000
+P                 0.005259        0.000000        0.000000       -1.000000       -2.000000
+
+
+CORRELATION OF SIMULATED VARIABLES
+VARIABLE       ITC       K       I       P
+ITC         1.0000 -0.0000 -0.0000 -0.0000
+K          -0.0000  1.0000  1.0000  1.0000
+I          -0.0000  1.0000  1.0000  1.0000
+P          -0.0000  1.0000  1.0000  1.0000
+
+
+AUTOCORRELATION OF SIMULATED VARIABLES
+VARIABLE         1       2       3       4       5
+ITC         0.2780  0.0770  0.0254 -0.0131 -0.0114
+K              Inf     Inf     Inf     Inf     Inf
+I              Inf     Inf     Inf     Inf     Inf
+P              Inf     Inf     Inf     Inf     Inf
+Total computing time : 0h00m01s
